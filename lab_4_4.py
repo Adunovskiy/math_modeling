@@ -19,3 +19,11 @@ func(1)
             
             
         
+def func_new(x):
+    a = int(input("Введите начало ОДЗ: "))
+    b = int(input("Введите конец ОДЗ: "))
+    x = np.arange(a, b, 0.1)
+    y = 4 * x + 3
+    print(y)
+    
+func(1)
