@@ -1,6 +1,11 @@
 import matplotlib.pyplot as plt 
 import numpy as np
-def ladder(a = 10, title = 'ladder'):
-    x = np.arange(0, 10, 1)
-    for i in range(a):
-        if 
+def ladder(N = 0):
+    x = np.arange(0, 15, 0.001)
+    y = []
+    for i in range(len(x)):
+        a = x[i] // 1
+        y.append(a)
+    plt.plot(x, y)
+    plt.show()
+ladder(2)
